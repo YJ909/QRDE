@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ABC Bank</string>
+    <string name="name">Name</string>
+    <string name="account_num">Account Number</string>
+    <string name="IFSC">IFSC</string>
+    <string name="aadhar_num">Aadhar Number</string>
+    <string name="MMID">MMID</string>
+    <string name="UPI_ID">UPI ID</string>
+    <string name="phone_num">Phone Number</string>
+    <string name="amount">Amount</string>
+    <string name="billno">Bill Number</string>
+    <string name="custID">Customer ID</string>
+    <string name="pwd">Password</string>
+    <string name="pwd2">Re-enter Password</string>
+    <string name="spinner_title">Customer ID</string>
+    <string name="title">Title</string>
+    <string name="txid">Transaction ID</string>
+    <string name="gender">Gender</string>
+    <string name="address">Address</string>
+    <string name="email">E-Mail ID</string>
+    <string name="dob">DOB(DD/MM/YYYY)</string>
+</resources>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10mm"
+        android:layout_gravity="center"
+        android:scrollbars="vertical">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="7mm"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextName"
+                android:layout_width="620px"
+                android:layout_height="wrap_content"
+                android:hint="@string/name"
+                android:enabled="false">
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="7mm"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextAccount"
+                android:layout_width="620px"
+                android:layout_height="wrap_content"
+                android:hint="@string/account_num"
+                android:enabled="false"/>
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="7mm"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextIFSC"
+                android:layout_width="620px"
+                android:layout_height="wrap_content"
+                android:hint="@string/IFSC"
+                android:enabled="false"/>
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="7mm"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextAmount"
+                android:layout_width="620px"
+                android:layout_height="wrap_content"
+                android:hint="@string/amount" />
+            <requestFocus />
+
+            <ImageView
+                android:id="@+id/speakText4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?selectableItemBackground"
+                android:src="@android:drawable/ic_btn_speak_now" />
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="7mm"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextTxID"
+                android:layout_width="620px"
+                android:layout_height="wrap_content"
+                android:hint="@string/txid"
+                android:enabled="false"/>
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/btnGenerateQR"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_gravity="center"
+                android:text="Create Image" />
+
+            <Button
+                android:id="@+id/btnHome"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:text="Home"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
